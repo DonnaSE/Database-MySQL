@@ -1,0 +1,51 @@
+DOWNLOADS AND INSTALLATIONS MySQL 
+Download 
+1. Go to MYSQL downloads page : https://dev.mysql.com/downloads/ 
+2. Choose “Community (GPL) Downloads “ at the bottom of the page.
+3. Then choose MySQL Community Server (GPL)
+4. Select your operating system
+    a.  Download the DMG archive (for macOS ). 
+    b. Download the Installer MSI (for Windows)/Community version.[Make sure the downloaded installer is the larger file out of two option]
+
+Installation for macOS: 
+Once the download is complete, Double click on the dmg file and install. 
+At the end of the installation, you will be asked to setup the root password. Make sure you select a strong password and save it somewhere as you will require this to connect to mySQL
+
+To start your mySQL Server , 
+1. Go to system preferences . Click on mySQL.  You can start and stop the server from the dialog box. 
+
+To interact with mySQL server, you can either use mySQL Workbench or terminal.
+1. Using terminal
+	a. Go to terminal. 
+	b. Make sure you are in your home directory . you can use pwd command to do so.
+	c. Update your .bash_profile file to include mysql. 
+		if there is no .bash_profile in your home directory, create it as follows
+			$touch .bash_profile
+		else open the file 
+			$open -t .bash_profile
+		Add the following at the end of the file and save and close the file. 
+			export PATH=${PATH}:/usr/local/mysql/bin/ Now open new terminal, 
+	d. Connect to mysql 
+		$mysql -u root -p
+		Enter your password 
+	Use following commands to test it 
+	mysql> show databases;
+
+2. Using mySQL Workbench. 
+    1. To download mySQL Workbench, you can follow Step 1 and 2 from Download section and select mysql workbench for macOS and complete the installation by double clicking the dmg file. 
+    2. After installation, you can find it in your applications and use it directly. 
+
+Installation for Windows
+Once the download is complete, double click on the executable file and install Developer default.
+During installation, you will be asked to setup the root password. Make sure you select a strong password and save it somewhere as you will require this to connect to mySQL. You can also use add new user during installation. 
+
+You can open mysql clients(mysql shell and mysql Workbench) from Start menu
+
+Use the following commands to test it
+mysql> show databases;
+
+Link to documentation: https://dev.mysql.com/doc/
+Link to video tutorial for installation:
+For Windows: https://www.youtube.com/watch?v=WuBcTJnIuzo
+For MacOSX: https://www.youtube.com/watch?v=UcpHkYfWarM 
+

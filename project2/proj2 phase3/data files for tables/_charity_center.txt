@@ -1,0 +1,5 @@
+e-mail,name,phone_number,location,employeeId
+arms.of.hope@gamil.com,Arms of Hope,(877) 777-4919,"2100 S Cooper St Ste B, Arlington, TX 76013",IJ1569
+catholic.charities@gmail.com,Catholic Charities,(214) 826-8330,"2843 Lapsley St, Dallas, TX 75212",FK8907
+salvation.army@gmail.com,The Salvation Army,(817) 861-9488,"1301 E Abram St, Arlington, TX 76010",EN4589
+good.will@gmail.com,Goodwill,(682) 808-5332,"4621 S Cooper St #101a, Arlington, TX 76017",FE6789

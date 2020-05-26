@@ -1,0 +1,13 @@
+table,th, td {
+  border: 1px solid black;
+  border-collapse:collapse;
+}
+.intro{
+		background-color:yellow;
+			}
+#first_line{
+	text-size:large;
+}
+a:hover{
+	color:red;
+}
